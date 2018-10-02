@@ -1,5 +1,6 @@
 .idea/*
-cypress/*
-plugins
-screenshots
-videos
+.cypress/*
+.plugins/*
+.screenshots/*
+.videos/*
+.support/*
