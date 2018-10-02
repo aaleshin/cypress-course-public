@@ -2,9 +2,7 @@
   "viewportWidth": 1550,
   "viewportHeight": 1000,
   "projectId": "4vipdq",
-  "integrationFolder": "cypress-course-public/integration",
   "env": {
-    "host": "",
-
+    "host": "https://rt-dev.thumbtack.lo/employees/"
   }
 }

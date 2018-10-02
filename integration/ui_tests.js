@@ -9,7 +9,7 @@ describe('Time off', function () {
     beforeEach(function () {
         cy.clearCookies()
         cy.visit(login_url)
-        LoginPage.login('nkopychina','password')
+        LoginPage.login('aaleshin','Kjrjvjn1d()1983')
         MainPage.verifyElements()
     })
 
