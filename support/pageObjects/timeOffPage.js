@@ -16,10 +16,8 @@ export const TimeOffPage = {
     select_time_off_type(type){
         cy.get(TimeOffTypeDropdown).select(type)
     },
-    select_time_off_period(start_date, end_date){
-        cy.get(PeriodField).click()
-            .get(StartDateField).clear().type(start_date)
-            .get(EndDateField).clear().type(end_date)
+    select_time_off_period(date){
+        cy.get(PeriodField).click().clear().type(date)
     },
     add_first_priority_approver(approver_name){
         cy.get(FirstPriorityApproverField).click({force: true})
