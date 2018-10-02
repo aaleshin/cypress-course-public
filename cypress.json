@@ -1,8 +1,10 @@
 {
   "viewportWidth": 1550,
   "viewportHeight": 1000,
-  "projectId": "q8o75d",
+  "projectId": "4vipdq",
+  "integrationFolder": "cypress-course-public/integration",
   "env": {
-    "host": ""
+    "host": "",
+
   }
 }
