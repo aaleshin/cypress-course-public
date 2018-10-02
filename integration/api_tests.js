@@ -7,7 +7,7 @@ describe('API tests', () => {
                 LoginPageAPI.get_employee_id()
             })
             .then(()=>{
-                return LoginPageAPI.edit_user_personal_settings({phone_number: '+444'})
+                return LoginPageAPI.edit_user_personal_settings({phone_number: '+444555', skype: 'qwerty12345'})
             })
     })
 })
