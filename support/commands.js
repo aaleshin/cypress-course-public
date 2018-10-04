@@ -4,7 +4,7 @@ Cypress.Commands.add('loginByCSRF', (csrfToken) => {
         url: Cypress.env("host") + '/accounts/login/',
         form: true, // we are submitting a regular form body
         body: {
-            username: 'nkopychina',
+            username: 'aaleshin',
             password: 'password',
             csrfmiddlewaretoken: csrfToken
         },
